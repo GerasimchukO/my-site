@@ -1,0 +1,12 @@
+var firstName = prompt ("Your name?");
+var lastName = prompt ("Your last name?");
+
+var age = confirm ("Are you 18?");
+alert
+
+if (age === true){
+alert(firstName + " " + lastName + " " + "Welcome!");
+}
+else {
+    alert(firstName+" "+lastName + " "+"You cannot visit this page!")
+};
