@@ -1,0 +1,16 @@
+// var firstName = prompt ("Your name?");
+// var lastName = prompt ("Your last name?");
+// var age = prompt ("Are?");
+var isAdult = confirm ("Is adult?");
+// var fullName = firstName + " " + lastName;
+// var fullInfo = fullName + "" + age + "Is adult" + isAdult;
+
+var successMsg = "Welcome to content";
+var faileMsg = "You are yo young for content";
+
+if (isAdult){
+alert(successMsg);
+}
+else {
+    alert(faileMsg)
+};
